@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>何亚敏-个人简历</title>
+<style>
+/* 全局重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  background-color: #f5f7fa;
+  padding: 20px;
+  line-height: 1.6;
+}
+/* 简历容器：整体边框、白底、居中 */
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* 每个大区块：带边框、内边距、外边距 */
+.section {
+  border: 1px solid #999;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+/* 区块标题样式 */
+.section h2 {
+  font-size: 18px;
+  color: #222;
+  border-bottom: 2px solid #444;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+/* 基本信息容器：照片+表格排版 */
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+/* 照片样式 */
+.avatar {
+  width: 120px;
+  height: 160px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+/* 基本信息：两列表格 */
+.info-table {
+  flex: 1;
+  min-width: 400px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.info-table td {
+  padding: 6px 4px;
+  vertical-align: top;
+}
+.info-table td:first-child {
+  width: 100px;
+  color: #555;
+  font-weight: bold;
+}
+/* 列表（教育/实践/校园） */
+.item-list {
+  list-style: none;
+}
+.item-list li {
+  margin-bottom: 10px;
+}
+.item-list .title {
+  font-weight: bold;
+}
+.item-list .meta {
+  color: #666;
+  font-size: 14px;
+}
+/* 技能 & 自我评价 */
+.skills, .eval {
+  margin-top: 8px;
+}
+/* 适配手机端 */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .info-table {
+    min-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="resume-container">
+
+  <!-- 第一部分：基本信息（新增照片） -->
+  <section class="section">
+    <h2>一、基本信息</h2>
+    <div class="info-container">
+      <!-- 照片区域 -->
+      <img src="https://p26-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/17798072548348cebae824a71a13144d.jpg~tplv-a9rns2rl98-24:720:720.jpeg?lk3s=8e244e95&rcl=20260519154155260529EFBA4C16553A51&rrcfp=d52e923b&x-expires=1779781315&x-signature=om%2FmGAadkirlBnOthVqYDa75r0E%3D" 
+           alt="个人照片" class="avatar">
+      <!-- 信息表格 -->
+      <table class="info-table">
+        <tr>
+          <td>姓名</td>
+          <td>何亚敏</td>
+          <td>电话</td>
+          <td>19201505861</td>
+        </tr>
+        <tr>
+          <td>性别</td>
+          <td>女</td>
+          <td>邮箱</td>
+          <td>2667712351@qq.com</td>
+        </tr>
+        <tr>
+          <td>民族</td>
+          <td>汉族</td>
+          <td>专业</td>
+          <td>广播电视学</td>
+        </tr>
+        <tr>
+          <td>出生年月</td>
+          <td>2005年10月6日</td>
+          <td>毕业时间</td>
+          <td>2028年6月1日</td>
+        </tr>
+        <tr>
+          <td>政治面貌</td>
+          <td>共青团员</td>
+          <td>毕业院校</td>
+          <td>淮阴师范学院</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 第二部分：教育背景 -->
+  <section class="section">
+    <h2>二、教育背景</h2>
+    <ul class="item-list">
+      <li>
+        <div class="title">淮阴师范学院 | 广播电视学 | 本科</div>
+        <div class="meta">2024年09月 — 2028年06月</div>
+        <div>主修新闻学概论、影视拍摄、短视频制作、新媒体运营、新闻采编、播音主持基础等专业课程，夯实传媒专业理论知识，注重理论结合实操，认真完成各项专业实训课程，学业态度端正，积极参与课堂实践学习。</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 第三部分：实践经历 -->
+  <section class="section">
+    <h2>三、实践经历</h2>
+    <ul class="item-list">
+      <li>
+        <div class="title">地方融媒体中心 | 新媒体采编实习生</div>
+        <div class="meta">2025年07月 — 2025年08月</div>
+        <div>协助完成日常新闻素材拍摄、图文稿件撰写与排版编辑；负责短视频脚本策划、简单剪辑与发布运营；整理整理新闻资料，参与线下活动现场拍摄记录，熟悉媒体行业工作流程，提升文案写作与镜头拍摄能力。</div>
+      </li>
+      <li>
+        <div class="title">校园传媒工作室 | 视频运营助理</div>
+        <div class="meta">在校日常实践</div>
+        <div>参与校园各类活动纪实拍摄，完成校园宣传短视频制作，负责账号日常内容更新，积累大量实拍、剪辑、文案创作实战经验。</div>
+       <video src="c:\Users\26677\Desktop\AI节气\视频结尾.mp4" controls></video>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 第四部分：校园经历 -->
+  <section class="section">
+    <h2>四、校园经历</h2>
+    <ul class="item-list">
+      <li>
+        <div class="title">校融媒体中心宣传部 | 干事</div>
+        <div class="meta">2024年10月 — 至今</div>
+        <div>负责校园活动拍照摄像、校园推文撰写排版，协助完成学校官方宣传内容制作，统筹部门基础工作，锻炼沟通协调能力与宣传策划能力。</div>
+      </li>
+      <li>
+        <div class="title">班级班委 | 班级文体委员</div>
+        <div class="meta">2024年09月 — 至今</div>
+        <div>组织班级文艺、文体类集体活动，配合辅导员完成班级日常事务，团结同学，具备良好的团队协作意识与组织统筹能力。</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 第五部分：技能与自我评价 -->
+  <section class="section">
+    <h2>五、技能与自我评价</h2>
+    <div class="skills">
+      <strong>专业技能：</strong>
+      <span>熟练使用剪映、PR进行视频剪辑；掌握基础图文排版、文案撰写；熟练运用Office办公全套软件；具备新闻采编、镜头拍摄、短视频策划能力；普通话标准，具备基础出镜与文稿撰写能力。</span>
+    </div>
+    <div class="eval" style="margin-top:10px;">
+      <strong>自我评价：</strong>
+      <span>本人性格沉稳踏实，待人真诚友善，做事认真细心，责任心强。身为广播电视学专业学生，热爱传媒行业，积极主动学习新媒体相关知识与实操技能。善于沟通交流，拥有良好团队协作能力与学习适应能力，能够快速适应工作环境，对待工作积极上进，吃苦耐劳，愿意不断积累经验提升自我，认真完成各项工作任务。</span>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
